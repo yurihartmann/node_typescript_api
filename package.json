@@ -1,0 +1,29 @@
+{
+  "name": "node_typescript_api",
+  "version": "1.0.0",
+  "description": "My first api in node with typecript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurihartmann/node_typescript_api.git"
+  },
+  "author": "Yuri Hartmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yurihartmann/node_typescript_api/issues"
+  },
+  "homepage": "https://github.com/yurihartmann/node_typescript_api#readme",
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^17.0.10",
+    "typescript": "^4.5.5"
+  }
+}
